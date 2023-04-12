@@ -13,6 +13,6 @@ class EnvironmentConfig {
   );
   static const apiKey = String.fromEnvironment(
     'API_KEY',
-    defaultValue: "c8f6ce9a00896969a96546e69386a31b",
+    defaultValue: "API_KEY",
   );
 }
