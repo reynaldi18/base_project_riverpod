@@ -1,8 +1,8 @@
-import 'package:base_project_riverpod/src/features/movies/domain/entities/movie.dart';
+import 'package:base_project_riverpod/src/models/movie_model.dart';
+import 'package:base_project_riverpod/src/models/movie_response.dart';
 import 'package:dio/dio.dart';
 
 import '../../../../config/environment_config.dart';
-import '../../domain/entities/movies.dart';
 import 'movie_service.dart';
 
 class MovieServiceImpl extends MovieService {
@@ -11,7 +11,7 @@ class MovieServiceImpl extends MovieService {
   MovieServiceImpl(this.dio);
 
   @override
-  Future<List<Movie>> getPopularMovie(int page) async {
+  Future<List<MovieModel>> getPopularMovie(int page) async {
     final response = await dio.get(
       'movie/popular',
       queryParameters: {
@@ -19,11 +19,11 @@ class MovieServiceImpl extends MovieService {
         'page': page,
       },
     );
-    return Movies.fromJson(response.data).results ?? [];
+    return MovieResponse.fromJson(response.data).results ?? [];
   }
 
   @override
-  Future<List<Movie>> getNowPlayingMovie(int page) async {
+  Future<List<MovieModel>> getNowPlayingMovie(int page) async {
     final response = await dio.get(
       'movie/now_playing',
       queryParameters: {
@@ -31,17 +31,17 @@ class MovieServiceImpl extends MovieService {
         'page': page,
       },
     );
-    return Movies.fromJson(response.data).results ?? [];
+    return MovieResponse.fromJson(response.data).results ?? [];
   }
 
   @override
-  Future<Movie> getMovieDetail(int id) async {
+  Future<MovieModel> getMovieDetail(int id) async {
     final response = await dio.get(
       'movie/$id',
       queryParameters: {
         'api_key': EnvironmentConfig.apiKey,
       },
     );
-    return Movie.fromJson(response.data);
+    return MovieModel.fromJson(response.data);
   }
 }

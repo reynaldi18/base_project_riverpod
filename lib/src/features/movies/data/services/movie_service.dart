@@ -1,7 +1,7 @@
-import '../../domain/entities/movie.dart';
+import '../../../../models/movie_model.dart';
 
 abstract class MovieService {
-  Future<List<Movie>> getPopularMovie(int page);
-  Future<List<Movie>> getNowPlayingMovie(int page);
-  Future<Movie> getMovieDetail(int id);
+  Future<List<MovieModel>> getPopularMovie(int page);
+  Future<List<MovieModel>> getNowPlayingMovie(int page);
+  Future<MovieModel> getMovieDetail(int id);
 }

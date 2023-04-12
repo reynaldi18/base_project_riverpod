@@ -1,21 +1,21 @@
+import 'package:base_project_riverpod/src/features/movies/domain/usecases/get_detail_movie.dart';
 import 'package:base_project_riverpod/src/network/network_exceptions.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../core/request_state.dart';
-import '../../domain/repositories/movie_repository.dart';
 import '../../domain/entities/movie.dart';
-import '../providers/movie_repository_provider.dart';
+import '../providers/detail_movie_provider.dart';
 
 class MovieDetailNotifier extends StateNotifier<RequestState<Movie?>> {
   final int id;
-  final MovieRepository repository;
+  final GetDetailMovie useCase;
 
-  MovieDetailNotifier(this.id, this.repository)
+  MovieDetailNotifier(this.id, this.useCase)
       : super(const RequestState.initial());
 
   Future<void> getMovieDetail() async {
     state = const RequestState.loading();
-    final result = await repository.getMovieDetail(id);
+    final result = await useCase.execute(id);
     result.fold(
       (l) {
         state = RequestState.error(l.stringError());
@@ -30,7 +30,7 @@ class MovieDetailNotifier extends StateNotifier<RequestState<Movie?>> {
 final movieDetailProvider = StateNotifierProvider.family<MovieDetailNotifier,
     RequestState<Movie?>, int>(
   (ref, int id) {
-    return MovieDetailNotifier(id, ref.watch(movieRepositoryProvider))
+    return MovieDetailNotifier(id, ref.watch(detailMovieProvider))
       ..getMovieDetail();
   },
 );

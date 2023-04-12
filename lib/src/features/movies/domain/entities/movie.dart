@@ -1,4 +1,4 @@
-import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
 import 'belongs_to_collection.dart';
 import 'genre.dart';
@@ -6,51 +6,35 @@ import 'production_company.dart';
 import 'production_country.dart';
 import 'spoken_language.dart';
 
-part 'movie.g.dart';
+class Movie extends Equatable {
+  final int? id;
+  final bool? adult;
+  final String? backdropPath;
+  final List<int>? genreIds;
+  final String? originalLanguage;
+  final String? originalTitle;
+  final String? overview;
+  final double? popularity;
+  final String? posterPath;
+  final String? releaseDate;
+  final String? title;
+  final bool? video;
+  final double? voteAverage;
+  final int? voteCount;
+  final BelongsToCollection? belongsToCollection;
+  final int? budget;
+  final List<Genre>? genres;
+  final String? homepage;
+  final String? imdbId;
+  final List<ProductionCompany>? productionCompanies;
+  final List<ProductionCountry>? productionCountries;
+  final int? revenue;
+  final int? runtime;
+  final List<SpokenLanguage>? spokenLanguages;
+  final String? status;
+  final String? tagline;
 
-@JsonSerializable()
-class Movie {
-  int? id;
-  bool? adult;
-  @JsonKey(name: 'backdrop_path')
-  String? backdropPath;
-  @JsonKey(name: 'genre_ids')
-  List<int>? genreIds;
-  @JsonKey(name: 'original_language')
-  String? originalLanguage;
-  @JsonKey(name: 'original_title')
-  String? originalTitle;
-  String? overview;
-  double? popularity;
-  @JsonKey(name: 'poster_path')
-  String? posterPath;
-  @JsonKey(name: 'release_date')
-  String? releaseDate;
-  String? title;
-  bool? video;
-  @JsonKey(name: 'vote_average')
-  double? voteAverage;
-  @JsonKey(name: 'vote_count')
-  int? voteCount;
-  @JsonKey(name: "belongs_to_collection")
-  BelongsToCollection? belongsToCollection;
-  int? budget;
-  List<Genre>? genres;
-  String? homepage;
-  @JsonKey(name: "imdb_id")
-  String? imdbId;
-  @JsonKey(name: "production_companies")
-  List<ProductionCompany>? productionCompanies;
-  @JsonKey(name: "production_countries")
-  List<ProductionCountry>? productionCountries;
-  int? revenue;
-  int? runtime;
-  @JsonKey(name: "spoken_languages")
-  List<SpokenLanguage>? spokenLanguages;
-  String? status;
-  String? tagline;
-
-  Movie({
+  const Movie({
     this.id,
     this.adult,
     this.backdropPath,
@@ -79,7 +63,33 @@ class Movie {
     this.tagline,
   });
 
-  factory Movie.fromJson(Map<String, dynamic> json) => _$MovieFromJson(json);
-
-  Map<String, dynamic> toJson() => _$MovieToJson(this);
+  @override
+  List<Object?> get props => [
+        id,
+        adult,
+        backdropPath,
+        genreIds,
+        originalLanguage,
+        originalTitle,
+        overview,
+        popularity,
+        posterPath,
+        releaseDate,
+        title,
+        video,
+        voteAverage,
+        voteCount,
+        belongsToCollection,
+        budget,
+        genres,
+        homepage,
+        imdbId,
+        productionCompanies,
+        productionCountries,
+        revenue,
+        runtime,
+        spokenLanguages,
+        status,
+        tagline,
+      ];
 }

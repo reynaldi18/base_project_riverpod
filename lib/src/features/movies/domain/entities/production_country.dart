@@ -1,19 +1,17 @@
-import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
-part 'production_country.g.dart';
+class ProductionCountry extends Equatable {
+  final String? iso31661;
+  final String? name;
 
-@JsonSerializable()
-class ProductionCountry {
-  String? iso31661;
-  String? name;
-
-  ProductionCountry({
+  const ProductionCountry({
     this.iso31661,
     this.name,
   });
 
-  factory ProductionCountry.fromJson(Map<String, dynamic> json) =>
-      _$ProductionCountryFromJson(json);
-
-  Map<String, dynamic> toJson() => _$ProductionCountryToJson(this);
+  @override
+  List<Object?> get props => [
+        iso31661,
+        name,
+      ];
 }

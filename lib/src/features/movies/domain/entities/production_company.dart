@@ -1,23 +1,23 @@
-import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
-part 'production_company.g.dart';
+class ProductionCompany extends Equatable {
+  final int? id;
+  final String? logoPath;
+  final String? name;
+  final String? originCountry;
 
-@JsonSerializable()
-class ProductionCompany {
-  int? id;
-  String? logoPath;
-  String? name;
-  String? originCountry;
-
-  ProductionCompany({
+  const ProductionCompany({
     this.id,
     this.logoPath,
     this.name,
     this.originCountry,
   });
 
-  factory ProductionCompany.fromJson(Map<String, dynamic> json) =>
-      _$ProductionCompanyFromJson(json);
-
-  Map<String, dynamic> toJson() => _$ProductionCompanyToJson(this);
+  @override
+  List<Object?> get props => [
+        id,
+        logoPath,
+        name,
+        originCountry,
+      ];
 }

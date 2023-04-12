@@ -15,7 +15,7 @@ class MovieRepositoryImpl extends MovieRepository {
   FutureEither<List<Movie>> fetchPopularMovie(int page) async {
     try {
       var response = await _service.getPopularMovie(page);
-      return right(response);
+      return right(response.map((model) => model.toEntity()).toList());
     } catch (e) {
       return left(e as NetworkExceptions);
     }
@@ -25,17 +25,17 @@ class MovieRepositoryImpl extends MovieRepository {
   FutureEither<List<Movie>> fetchNowPlayingMovie(int page) async {
     try {
       var response = await _service.getNowPlayingMovie(page);
-      return right(response);
+      return right(response.map((model) => model.toEntity()).toList());
     } catch (e) {
       return left(e as NetworkExceptions);
     }
   }
 
   @override
-  FutureEither<Movie?> getMovieDetail(int id) async {
+  FutureEither<Movie> fetchMovieDetail(int id) async {
     try {
       var response = await _service.getMovieDetail(id);
-      return right(response);
+      return right(response.toEntity());
     } catch (e) {
       return left(e as NetworkExceptions);
     }

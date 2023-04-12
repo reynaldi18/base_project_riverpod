@@ -1,12 +1,12 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'movie.dart';
+part of 'movie_model.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-Movie _$MovieFromJson(Map<String, dynamic> json) => Movie(
+MovieModel _$MovieModelFromJson(Map<String, dynamic> json) => MovieModel(
       id: json['id'] as int?,
       adult: json['adult'] as bool?,
       backdropPath: json['backdrop_path'] as String?,
@@ -24,30 +24,33 @@ Movie _$MovieFromJson(Map<String, dynamic> json) => Movie(
       voteCount: json['vote_count'] as int?,
       belongsToCollection: json['belongs_to_collection'] == null
           ? null
-          : BelongsToCollection.fromJson(
+          : BelongsToCollectionModel.fromJson(
               json['belongs_to_collection'] as Map<String, dynamic>),
       budget: json['budget'] as int?,
       genres: (json['genres'] as List<dynamic>?)
-          ?.map((e) => Genre.fromJson(e as Map<String, dynamic>))
+          ?.map((e) => GenreModel.fromJson(e as Map<String, dynamic>))
           .toList(),
       homepage: json['homepage'] as String?,
       imdbId: json['imdb_id'] as String?,
       productionCompanies: (json['production_companies'] as List<dynamic>?)
-          ?.map((e) => ProductionCompany.fromJson(e as Map<String, dynamic>))
+          ?.map(
+              (e) => ProductionCompanyModel.fromJson(e as Map<String, dynamic>))
           .toList(),
       productionCountries: (json['production_countries'] as List<dynamic>?)
-          ?.map((e) => ProductionCountry.fromJson(e as Map<String, dynamic>))
+          ?.map(
+              (e) => ProductionCountryModel.fromJson(e as Map<String, dynamic>))
           .toList(),
       revenue: json['revenue'] as int?,
       runtime: json['runtime'] as int?,
       spokenLanguages: (json['spoken_languages'] as List<dynamic>?)
-          ?.map((e) => SpokenLanguage.fromJson(e as Map<String, dynamic>))
+          ?.map((e) => SpokenLanguageModel.fromJson(e as Map<String, dynamic>))
           .toList(),
       status: json['status'] as String?,
       tagline: json['tagline'] as String?,
     );
 
-Map<String, dynamic> _$MovieToJson(Movie instance) => <String, dynamic>{
+Map<String, dynamic> _$MovieModelToJson(MovieModel instance) =>
+    <String, dynamic>{
       'id': instance.id,
       'adult': instance.adult,
       'backdrop_path': instance.backdropPath,

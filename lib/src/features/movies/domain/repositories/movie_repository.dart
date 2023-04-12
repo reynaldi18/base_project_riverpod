@@ -4,5 +4,5 @@ import '../entities/movie.dart';
 abstract class MovieRepository {
   FutureEither<List<Movie>> fetchPopularMovie(int page);
   FutureEither<List<Movie>> fetchNowPlayingMovie(int page);
-  FutureEither<Movie?> getMovieDetail(int id);
+  FutureEither<Movie> fetchMovieDetail(int id);
 }

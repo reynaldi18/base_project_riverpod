@@ -1,19 +1,20 @@
+import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import '../features/movies/domain/entities/movie.dart';
+import 'movie_model.dart';
 
 part 'movie_response.g.dart';
 
 @JsonSerializable()
-class MovieResponse {
-  int? page;
-  List<Movie>? results;
+class MovieResponse extends Equatable {
+  final int? page;
+  final List<MovieModel>? results;
   @JsonKey(name: 'total_pages')
-  int? totalPages;
+  final int? totalPages;
   @JsonKey(name: 'total_results')
-  int? totalResults;
+  final int? totalResults;
 
-  MovieResponse({
+  const MovieResponse({
     this.page,
     this.results,
     this.totalPages,
@@ -24,4 +25,12 @@ class MovieResponse {
       _$MovieResponseFromJson(json);
 
   Map<String, dynamic> toJson() => _$MovieResponseToJson(this);
+
+  @override
+  List<Object?> get props => [
+        page,
+        results,
+        totalPages,
+        totalResults,
+      ];
 }

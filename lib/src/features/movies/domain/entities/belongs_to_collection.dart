@@ -1,25 +1,23 @@
-import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
-part 'belongs_to_collection.g.dart';
+class BelongsToCollection extends Equatable {
+  final int? id;
+  final String? name;
+  final String? posterPath;
+  final String? backdropPath;
 
-@JsonSerializable()
-class BelongsToCollection {
-  int? id;
-  String? name;
-  @JsonKey(name: "poster_path")
-  String? posterPath;
-  @JsonKey(name: "backdrop_path")
-  String? backdropPath;
-
-  BelongsToCollection({
+  const BelongsToCollection({
     this.id,
     this.name,
     this.posterPath,
     this.backdropPath,
   });
 
-  factory BelongsToCollection.fromJson(Map<String, dynamic> json) =>
-      _$BelongsToCollectionFromJson(json);
-
-  Map<String, dynamic> toJson() => _$BelongsToCollectionToJson(this);
+  @override
+  List<Object?> get props => [
+    id,
+    name,
+    posterPath,
+    backdropPath,
+  ];
 }

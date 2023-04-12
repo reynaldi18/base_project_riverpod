@@ -1,21 +1,20 @@
-import 'package:json_annotation/json_annotation.dart';
+import 'package:equatable/equatable.dart';
 
-part 'spoken_language.g.dart';
+class SpokenLanguage extends Equatable {
+  final String? englishName;
+  final String? iso6391;
+  final String? name;
 
-@JsonSerializable()
-class SpokenLanguage {
-  String? englishName;
-  String? iso6391;
-  String? name;
-
-  SpokenLanguage({
+  const SpokenLanguage({
     this.englishName,
     this.iso6391,
     this.name,
   });
 
-  factory SpokenLanguage.fromJson(Map<String, dynamic> json) =>
-      _$SpokenLanguageFromJson(json);
-
-  Map<String, dynamic> toJson() => _$SpokenLanguageToJson(this);
+  @override
+  List<Object?> get props => [
+        englishName,
+        iso6391,
+        name,
+      ];
 }
