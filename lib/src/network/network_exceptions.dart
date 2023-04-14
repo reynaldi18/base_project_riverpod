@@ -69,6 +69,7 @@ abstract class NetworkExceptions with _$NetworkExceptions {
                 case 401:
                   networkExceptions =
                       const NetworkExceptions.unauthorisedRequest();
+                      const NetworkExceptions.unauthorisedRequest();
                   break;
                 case 403:
                   networkExceptions =

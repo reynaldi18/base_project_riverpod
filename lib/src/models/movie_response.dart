@@ -8,7 +8,7 @@ part 'movie_response.g.dart';
 @JsonSerializable()
 class MovieResponse extends Equatable {
   final int? page;
-  final List<MovieModel>? results;
+  final List<MovieModel> results;
   @JsonKey(name: 'total_pages')
   final int? totalPages;
   @JsonKey(name: 'total_results')
@@ -16,7 +16,7 @@ class MovieResponse extends Equatable {
 
   const MovieResponse({
     this.page,
-    this.results,
+    required this.results,
     this.totalPages,
     this.totalResults,
   });

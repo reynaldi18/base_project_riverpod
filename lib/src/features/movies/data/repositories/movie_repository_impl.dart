@@ -25,7 +25,7 @@ class MovieRepositoryImpl extends MovieRepository {
   FutureEither<List<Movie>> fetchNowPlayingMovie(int page) async {
     try {
       var response = await _service.getNowPlayingMovie(page);
-      return right(response.map((model) => model.toEntity()).toList());
+      return right(response?.map((model) => model.toEntity()).toList() ?? []);
     } catch (e) {
       return left(e as NetworkExceptions);
     }
