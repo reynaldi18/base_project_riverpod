@@ -132,7 +132,7 @@ abstract class NetworkExceptions with _$NetworkExceptions {
   }
 }
 
-extension WeatherErrorAsync on NetworkExceptions {
+extension NetworkErrorAsync on NetworkExceptions {
   String stringError() {
     String errorMessage = "";
 
@@ -155,7 +155,7 @@ extension WeatherErrorAsync on NetworkExceptions {
     }, unexpectedError: () {
       errorMessage = "Unexpected error occurred";
     }, requestTimeout: () {
-      errorMessage = "Connection request timeout";
+      errorMessage = "requestTimeout";
     }, noInternetConnection: () {
       errorMessage = "No internet connection";
     }, conflict: () {

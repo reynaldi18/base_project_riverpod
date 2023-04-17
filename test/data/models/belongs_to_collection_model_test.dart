@@ -17,8 +17,23 @@ void main() {
     backdropPath: 'backdropPath',
   );
 
-  test('should be a subclass of Movie entity', () async {
+  test('should be a subclass of BelongToCollection entity', () async {
     final result = tBelongToCollectionModel.toEntity();
     expect(result, tBelongToCollection);
+  });
+
+  test('should return a JSON map containing proper data', () async {
+    // arrange
+
+    // act
+    final result = tBelongToCollectionModel.toJson();
+    // assert
+    final expectedJsonMap = {
+      "id": 1,
+      "name": 'Name',
+      "poster_path": 'posterPath',
+      "backdrop_path": 'backdropPath',
+    };
+    expect(result, expectedJsonMap);
   });
 }

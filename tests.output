@@ -1,89 +1,189 @@
-{"protocolVersion":"0.1.1","runnerVersion":null,"pid":51230,"type":"start","time":0}
-{"suite":{"id":0,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"suite","time":0}
-{"test":{"id":1,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
-{"suite":{"id":2,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart"},"type":"suite","time":2}
-{"test":{"id":3,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
-{"suite":{"id":4,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"suite","time":2}
-{"test":{"id":5,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
-{"suite":{"id":6,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"suite","time":3}
-{"test":{"id":7,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
-{"suite":{"id":8,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart"},"type":"suite","time":3}
-{"test":{"id":9,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart","suiteID":8,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
-{"suite":{"id":10,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart"},"type":"suite","time":3}
-{"test":{"id":11,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart","suiteID":10,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
-{"count":7,"time":4,"type":"allSuites"}
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":765,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":2,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"suite","time":2}
+{"test":{"id":3,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":4,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart"},"type":"suite","time":2}
+{"test":{"id":5,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":6,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_country_model_test.dart"},"type":"suite","time":2}
+{"test":{"id":7,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_country_model_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":8,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/belongs_to_collection_model_test.dart"},"type":"suite","time":2}
+{"test":{"id":9,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/belongs_to_collection_model_test.dart","suiteID":8,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":10,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"suite","time":3}
+{"test":{"id":11,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart","suiteID":10,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
+{"count":13,"time":3,"type":"allSuites"}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59639/Wq6JS_KADLM=/"}}]
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60545/pF-Vzk8CfyQ=/"}}]
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59644/7CwpzJfRrm4=/"}}]
-{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1427}
-{"group":{"id":12,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":1429}
-{"group":{"id":13,"suiteID":0,"parentID":12,"name":"Popular Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":59,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1430}
-{"test":{"id":14,"name":"Popular Movies should return movie list when call to service is success","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1430}
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60554/pYlPq_vRP8s=/"}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1182}
+{"group":{"id":12,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":21,"line":null,"column":null,"url":null},"type":"group","time":1183}
+{"group":{"id":13,"suiteID":0,"parentID":12,"name":"NetworkExceptions","metadata":{"skip":false,"skipReason":null},"testCount":5,"line":8,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"group","time":1183}
+{"test":{"id":14,"name":"NetworkExceptions requestCancelled should return a RequestCancelled object","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":9,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1183}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59652/U_Rcz8VtQtA=/"}}]
-{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1458}
-{"group":{"id":15,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1458}
-{"test":{"id":16,"name":"should be a subclass of Movie entity","suiteID":2,"groupIDs":[15],"metadata":{"skip":false,"skipReason":null},"line":38,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart"},"type":"testStart","time":1458}
-{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1460}
-{"test":{"id":17,"name":"Popular Movies should return server failure when call to service is unsuccessful","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1461}
-{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1463}
-{"group":{"id":18,"suiteID":0,"parentID":12,"name":"Now Playing Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":83,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1464}
-{"test":{"id":19,"name":"Now Playing Movies should return movie list when call to service is success","suiteID":0,"groupIDs":[12,18],"metadata":{"skip":false,"skipReason":null},"line":84,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1464}
-{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1466}
-{"test":{"id":20,"name":"Now Playing Movies should return server failure when call to service is unsuccessful","suiteID":0,"groupIDs":[12,18],"metadata":{"skip":false,"skipReason":null},"line":95,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1466}
-{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1467}
-{"group":{"id":21,"suiteID":0,"parentID":12,"name":"Get Movie Detail","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":107,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1467}
-{"test":{"id":22,"name":"Get Movie Detail should return movie data when call to service is success","suiteID":0,"groupIDs":[12,21],"metadata":{"skip":false,"skipReason":null},"line":133,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1468}
-{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1472}
-{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1472}
-{"test":{"id":23,"name":"Get Movie Detail should return server failure when call to service is unsuccessful","suiteID":0,"groupIDs":[12,21],"metadata":{"skip":false,"skipReason":null},"line":145,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1472}
-{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1477}
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60557/wmj5hZK_lc8=/"}}]
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1198}
+{"test":{"id":15,"name":"NetworkExceptions should throw a NetworkExceptions when the response is DioErrorType.badResponse","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":14,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1198}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1214}
+{"test":{"id":16,"name":"NetworkExceptions should throw a NetworkExceptions when the response is DioErrorType.badResponse but cannot find status code","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":34,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1215}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1221}
+{"test":{"id":17,"name":"NetworkExceptions should throw a NetworkExceptions when the response error is SocketException","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":55,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1223}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1224}
+{"test":{"id":18,"name":"NetworkExceptions returns format exception when given FormatException","suiteID":0,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":68,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1224}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1226}
+{"group":{"id":19,"suiteID":0,"parentID":12,"name":"NetworkErrorAsync","metadata":{"skip":false,"skipReason":null},"testCount":16,"line":77,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"group","time":1226}
+{"test":{"id":20,"name":"NetworkErrorAsync stringError should return \"Request Cancelled\" for RequestCancelled","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":78,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1226}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1227}
+{"test":{"id":21,"name":"NetworkErrorAsync stringError should return \"Internal Server Error\" for InternalServerError","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":85,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1228}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1229}
+{"test":{"id":22,"name":"NetworkErrorAsync stringError should return \"Not Found\" for notFound","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":93,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1229}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1231}
+{"test":{"id":23,"name":"NetworkErrorAsync stringError should return \"Service unavailable\" for serviceUnavailable","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":99,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1231}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1233}
+{"test":{"id":24,"name":"NetworkErrorAsync stringError should return \"Method Allowed\" for methodNotAllowed","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":107,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1233}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1235}
+{"test":{"id":25,"name":"NetworkErrorAsync stringError should return \"Bad request\" for badRequest","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":113,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1235}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1237}
+{"test":{"id":26,"name":"NetworkErrorAsync stringError should return \"Unauthorised request\" for unauthorisedRequest","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":119,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1237}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1239}
+{"test":{"id":27,"name":"NetworkErrorAsync stringError should return \"Unexpected error occurred\" for unexpectedError","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":127,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1239}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1241}
+{"test":{"id":28,"name":"NetworkErrorAsync stringError should return \"requestTimeout\" for requestTimeout","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":135,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1241}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1243}
+{"test":{"id":29,"name":"NetworkErrorAsync stringError should return \"No internet connection\" for noInternetConnection","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":141,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1243}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1244}
+{"test":{"id":30,"name":"NetworkErrorAsync stringError should return \"Error due to a conflict\" for conflict","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":149,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1245}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1246}
+{"test":{"id":31,"name":"NetworkErrorAsync stringError should return \"Send timeout in connection with API server\" for sendTimeout","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":156,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1246}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1247}
+{"test":{"id":32,"name":"NetworkErrorAsync stringError should return \"Unable to process the data\" for unableToProcess","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":165,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1247}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1249}
+{"test":{"id":33,"name":"NetworkErrorAsync stringError should return \"defaultError\" for defaultError","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":173,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1249}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1250}
+{"test":{"id":34,"name":"NetworkErrorAsync stringError should return \"Unexpected error occurred\" for formatException","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":179,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1250}
+{"testID":34,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1252}
+{"test":{"id":35,"name":"NetworkErrorAsync stringError should return \"Not acceptable\" for notAcceptable","suiteID":0,"groupIDs":[12,19],"metadata":{"skip":false,"skipReason":null},"line":187,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/network/network_exceptions_test.dart"},"type":"testStart","time":1252}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1253}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59657/fptbEWHfy2g=/"}}]
-{"suite":{"id":24,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart"},"type":"suite","time":1549}
-{"test":{"id":25,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart","suiteID":24,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1549}
-{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1591}
-{"group":{"id":26,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1591}
-{"group":{"id":27,"suiteID":4,"parentID":26,"name":"fromJson","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":46,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"group","time":1592}
-{"test":{"id":28,"name":"fromJson should return a valid model from JSON","suiteID":4,"groupIDs":[26,27],"metadata":{"skip":false,"skipReason":null},"line":47,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"testStart","time":1592}
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60562/L6HZl3D_GIM=/"}}]
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1303}
+{"group":{"id":36,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":1303}
+{"group":{"id":37,"suiteID":2,"parentID":36,"name":"Popular Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":59,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1303}
+{"test":{"id":38,"name":"Popular Movies should return movie list when call to service is success","suiteID":2,"groupIDs":[36,37],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1303}
+{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1334}
+{"test":{"id":39,"name":"Popular Movies should return server failure when call to service is unsuccessful","suiteID":2,"groupIDs":[36,37],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1343}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1349}
+{"group":{"id":40,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1349}
+{"test":{"id":41,"name":"should be a subclass of Movie entity","suiteID":4,"groupIDs":[40],"metadata":{"skip":false,"skipReason":null},"line":86,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_model_test.dart"},"type":"testStart","time":1349}
+{"testID":39,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1350}
+{"suite":{"id":42,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/genre_model_test.dart"},"type":"suite","time":1355}
+{"test":{"id":43,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/genre_model_test.dart","suiteID":42,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1356}
+{"group":{"id":44,"suiteID":2,"parentID":36,"name":"Now Playing Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":83,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1356}
+{"test":{"id":45,"name":"Now Playing Movies should return movie list when call to service is success","suiteID":2,"groupIDs":[36,44],"metadata":{"skip":false,"skipReason":null},"line":84,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1356}
+{"testID":45,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1380}
+{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1381}
+{"test":{"id":46,"name":"Now Playing Movies should return server failure when call to service is unsuccessful","suiteID":2,"groupIDs":[36,44],"metadata":{"skip":false,"skipReason":null},"line":95,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1384}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59660/y35dAGssS2k=/"}}]
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60565/-s2GLzDVRHc=/"}}]
+{"testID":46,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1387}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59661/Psecy-6UpTM=/"}}]
-{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1614}
-{"group":{"id":29,"suiteID":4,"parentID":26,"name":"toJson","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":58,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"group","time":1614}
-{"test":{"id":30,"name":"toJson should return a JSON map containing proper data","suiteID":4,"groupIDs":[26,29],"metadata":{"skip":false,"skipReason":null},"line":59,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"testStart","time":1614}
-{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1617}
-{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1693}
-{"group":{"id":31,"suiteID":6,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":1693}
-{"group":{"id":32,"suiteID":6,"parentID":31,"name":"get Popular Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":27,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":1693}
-{"test":{"id":33,"name":"get Popular Movies should return list of Movie Model when the response code is 200","suiteID":6,"groupIDs":[31,32],"metadata":{"skip":false,"skipReason":null},"line":32,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1693}
-{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1713}
-{"group":{"id":34,"suiteID":8,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1714}
-{"test":{"id":35,"name":"should get movie detail from the repository","suiteID":8,"groupIDs":[34],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart"},"type":"testStart","time":1714}
-{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1722}
-{"test":{"id":36,"name":"get Popular Movies should throw a NetworkExceptions when the response code is not 200","suiteID":6,"groupIDs":[31,32],"metadata":{"skip":false,"skipReason":null},"line":52,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1722}
-{"testID":11,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1730}
-{"group":{"id":37,"suiteID":10,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1730}
-{"test":{"id":38,"name":"should get list of movies from the repository","suiteID":10,"groupIDs":[37],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart"},"type":"testStart","time":1730}
-{"testID":36,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1730}
-{"group":{"id":39,"suiteID":6,"parentID":31,"name":"get Now Playing Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":77,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":1730}
-{"test":{"id":40,"name":"get Now Playing Movies should return list of Movie Model when the response code is 200","suiteID":6,"groupIDs":[31,39],"metadata":{"skip":false,"skipReason":null},"line":82,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1730}
-{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1732}
-{"testID":40,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1733}
-{"test":{"id":41,"name":"get Now Playing Movies should throw a NetworkExceptions when the response code is not 200","suiteID":6,"groupIDs":[31,39],"metadata":{"skip":false,"skipReason":null},"line":102,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1733}
-{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1735}
-{"group":{"id":42,"suiteID":6,"parentID":31,"name":"get Movie Detail","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":127,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":1735}
-{"test":{"id":43,"name":"get Movie Detail should return movie detail when the response code is 200","suiteID":6,"groupIDs":[31,42],"metadata":{"skip":false,"skipReason":null},"line":132,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1735}
-{"testID":43,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1737}
-{"test":{"id":44,"name":"get Movie Detail should throw a NetworkExceptions when the response code is not 200","suiteID":6,"groupIDs":[31,42],"metadata":{"skip":false,"skipReason":null},"line":150,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":1737}
-{"testID":44,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1739}
-{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1748}
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60566/9P0w35FMQu4=/"}}]
+{"group":{"id":47,"suiteID":2,"parentID":36,"name":"Get Movie Detail","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":107,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"group","time":1390}
+{"test":{"id":48,"name":"Get Movie Detail should return movie data when call to service is success","suiteID":2,"groupIDs":[36,47],"metadata":{"skip":false,"skipReason":null},"line":133,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1391}
+{"testID":48,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1398}
+{"test":{"id":49,"name":"Get Movie Detail should return server failure when call to service is unsuccessful","suiteID":2,"groupIDs":[36,47],"metadata":{"skip":false,"skipReason":null},"line":145,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/repositories/movie_repository_impl_test.dart"},"type":"testStart","time":1399}
+{"testID":49,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1401}
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1428}
+{"group":{"id":50,"suiteID":6,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1428}
+{"test":{"id":51,"name":"should be a subclass of ProductionCompany entity","suiteID":6,"groupIDs":[50],"metadata":{"skip":false,"skipReason":null},"line":16,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_country_model_test.dart"},"type":"testStart","time":1428}
+{"testID":51,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1447}
+{"test":{"id":52,"name":"should return a JSON map containing proper data","suiteID":6,"groupIDs":[50],"metadata":{"skip":false,"skipReason":null},"line":21,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_country_model_test.dart"},"type":"testStart","time":1447}
+{"testID":52,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1451}
+{"suite":{"id":53,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_company_model_test.dart"},"type":"suite","time":1485}
+{"test":{"id":54,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_company_model_test.dart","suiteID":53,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1485}
+{"suite":{"id":55,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/spoken_language_model_test.dart"},"type":"suite","time":1488}
+{"test":{"id":56,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/spoken_language_model_test.dart","suiteID":55,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1488}
+{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1517}
+{"group":{"id":57,"suiteID":8,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1517}
+{"test":{"id":58,"name":"should be a subclass of BelongToCollection entity","suiteID":8,"groupIDs":[57],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/belongs_to_collection_model_test.dart"},"type":"testStart","time":1517}
+{"testID":58,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1532}
+{"test":{"id":59,"name":"should return a JSON map containing proper data","suiteID":8,"groupIDs":[57],"metadata":{"skip":false,"skipReason":null},"line":25,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/belongs_to_collection_model_test.dart"},"type":"testStart","time":1535}
+{"suite":{"id":60,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"suite","time":1539}
+{"test":{"id":61,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart","suiteID":60,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1539}
+{"testID":59,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1540}
+{"testID":11,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1552}
+{"group":{"id":62,"suiteID":10,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1552}
+{"group":{"id":63,"suiteID":10,"parentID":62,"name":"fromJson","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":46,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"group","time":1552}
+{"test":{"id":64,"name":"fromJson should return a valid model from JSON","suiteID":10,"groupIDs":[62,63],"metadata":{"skip":false,"skipReason":null},"line":47,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"testStart","time":1552}
+{"testID":64,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1577}
+{"group":{"id":65,"suiteID":10,"parentID":62,"name":"toJson","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":58,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"group","time":1582}
+{"test":{"id":66,"name":"toJson should return a JSON map containing proper data","suiteID":10,"groupIDs":[62,65],"metadata":{"skip":false,"skipReason":null},"line":59,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/movie_response_model_test.dart"},"type":"testStart","time":1582}
+{"testID":66,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1585}
+{"suite":{"id":67,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart"},"type":"suite","time":1615}
+{"test":{"id":68,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart","suiteID":67,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1615}
+{"suite":{"id":69,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart"},"type":"suite","time":1661}
+{"test":{"id":70,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart","suiteID":69,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1661}
 
-[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:59673/BBVxiUAPiP8=/"}}]
-{"testID":25,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1965}
-{"group":{"id":45,"suiteID":24,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":1965}
-{"test":{"id":46,"name":"should get list of movies from the repository","suiteID":24,"groupIDs":[45],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart"},"type":"testStart","time":1965}
-{"testID":46,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1981}
-{"success":true,"type":"done","time":2044}
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60586/u33GsGJNofM=/"}}]
+{"testID":43,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1909}
+{"group":{"id":71,"suiteID":42,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1909}
+{"test":{"id":72,"name":"should be a subclass of Genre entity","suiteID":42,"groupIDs":[71],"metadata":{"skip":false,"skipReason":null},"line":16,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/genre_model_test.dart"},"type":"testStart","time":1909}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60596/a1sPEstqPec=/"}}]
+{"testID":72,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1943}
+{"test":{"id":73,"name":"should return a JSON map containing proper data","suiteID":42,"groupIDs":[71],"metadata":{"skip":false,"skipReason":null},"line":21,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/genre_model_test.dart"},"type":"testStart","time":1943}
+{"testID":73,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1947}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60600/PANZAhwF6TI=/"}}]
+{"suite":{"id":74,"platform":"vm","path":"/Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart"},"type":"suite","time":2022}
+{"test":{"id":75,"name":"loading /Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart","suiteID":74,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2022}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60604/rvEFwUGL56E=/"}}]
+{"testID":54,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2076}
+{"group":{"id":76,"suiteID":53,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":2077}
+{"test":{"id":77,"name":"should be a subclass of ProductionCompany entity","suiteID":53,"groupIDs":[76],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_company_model_test.dart"},"type":"testStart","time":2077}
+{"testID":77,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2090}
+{"test":{"id":78,"name":"should return a JSON map containing proper data","suiteID":53,"groupIDs":[76],"metadata":{"skip":false,"skipReason":null},"line":25,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/production_company_model_test.dart"},"type":"testStart","time":2090}
+{"testID":78,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2093}
+{"testID":56,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2126}
+{"group":{"id":79,"suiteID":55,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":2126}
+{"test":{"id":80,"name":"should be a subclass of ProductionCompany entity","suiteID":55,"groupIDs":[79],"metadata":{"skip":false,"skipReason":null},"line":18,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/spoken_language_model_test.dart"},"type":"testStart","time":2126}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60609/GEdJgimj__Y=/"}}]
+{"testID":80,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2145}
+{"test":{"id":81,"name":"should return a JSON map containing proper data","suiteID":55,"groupIDs":[79],"metadata":{"skip":false,"skipReason":null},"line":23,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/models/spoken_language_model_test.dart"},"type":"testStart","time":2146}
+{"testID":81,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2147}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60614/ney3z_7qbog=/"}}]
+{"testID":61,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2223}
+{"group":{"id":82,"suiteID":60,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":2223}
+{"group":{"id":83,"suiteID":60,"parentID":82,"name":"get Popular Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":28,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":2223}
+{"test":{"id":84,"name":"get Popular Movies should return list of Movie Model when the response code is 200","suiteID":60,"groupIDs":[82,83],"metadata":{"skip":false,"skipReason":null},"line":33,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2223}
+{"testID":84,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2248}
+{"test":{"id":85,"name":"get Popular Movies should throw a NetworkExceptions when the response code is not 200","suiteID":60,"groupIDs":[82,83],"metadata":{"skip":false,"skipReason":null},"line":53,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2248}
+{"testID":85,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2256}
+{"group":{"id":86,"suiteID":60,"parentID":82,"name":"get Now Playing Movies","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":78,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":2256}
+{"test":{"id":87,"name":"get Now Playing Movies should return list of Movie Model when the response code is 200","suiteID":60,"groupIDs":[82,86],"metadata":{"skip":false,"skipReason":null},"line":83,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2256}
+{"testID":87,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2258}
+{"test":{"id":88,"name":"get Now Playing Movies should throw a NetworkExceptions when the response code is not 200","suiteID":60,"groupIDs":[82,86],"metadata":{"skip":false,"skipReason":null},"line":103,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2258}
+{"testID":88,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2259}
+{"group":{"id":89,"suiteID":60,"parentID":82,"name":"get Movie Detail","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":128,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"group","time":2259}
+{"test":{"id":90,"name":"get Movie Detail should return movie detail when the response code is 200","suiteID":60,"groupIDs":[82,89],"metadata":{"skip":false,"skipReason":null},"line":133,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2259}
+{"testID":90,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2261}
+{"test":{"id":91,"name":"get Movie Detail should throw a NetworkExceptions when the response code is not 200","suiteID":60,"groupIDs":[82,89],"metadata":{"skip":false,"skipReason":null},"line":151,"column":5,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/data/services/movie_service_test.dart"},"type":"testStart","time":2262}
+{"testID":91,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2263}
+{"testID":68,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2273}
+{"group":{"id":92,"suiteID":67,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":2274}
+{"test":{"id":93,"name":"should get movie detail from the repository","suiteID":67,"groupIDs":[92],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_movie_detail_test.dart"},"type":"testStart","time":2274}
+{"testID":93,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2291}
+{"testID":70,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2312}
+{"group":{"id":94,"suiteID":69,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":2312}
+{"test":{"id":95,"name":"should get list of movies from the repository","suiteID":69,"groupIDs":[94],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_now_playing_movies_test.dart"},"type":"testStart","time":2312}
+{"testID":95,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2329}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":"http://127.0.0.1:60621/z8IItk3CpdU=/"}}]
+{"testID":75,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2462}
+{"group":{"id":96,"suiteID":74,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":2462}
+{"test":{"id":97,"name":"should get list of movies from the repository","suiteID":74,"groupIDs":[96],"metadata":{"skip":false,"skipReason":null},"line":20,"column":3,"url":"file:///Users/rey/Work/Practice/Flutter/base_project_riverpod/test/domain/usecases/get_popular_movies_test.dart"},"type":"testStart","time":2462}
+{"testID":97,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2477}
+{"success":true,"type":"done","time":2538}
