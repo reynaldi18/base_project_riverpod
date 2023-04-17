@@ -5,7 +5,7 @@ import 'movie_model.dart';
 
 part 'movie_response.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class MovieResponse extends Equatable {
   final int? page;
   final List<MovieModel> results;

@@ -5,7 +5,7 @@ import '../features/movies/domain/entities/genre.dart';
 
 part 'genre_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class GenreModel extends Equatable {
   final int? id;
   final String? name;

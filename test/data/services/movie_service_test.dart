@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:base_project_riverpod/src/config/environment_config.dart';
 import 'package:base_project_riverpod/src/features/movies/data/services/movie_service_impl.dart';
 import 'package:base_project_riverpod/src/models/movie_model.dart';
 import 'package:base_project_riverpod/src/models/movie_response.dart';
@@ -9,10 +10,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
 import '../../helpers/test_helper.mocks.dart';
-import '../../json_reader.dart';
+import '../../helpers/json_reader.dart';
 
 void main() {
-  const API_KEY = 'c8f6ce9a00896969a96546e69386a31b';
+  const apiKey = EnvironmentConfig.apiKey;
 
   late MovieServiceImpl service;
   late MockDioClient mockDioClient;
@@ -35,7 +36,7 @@ void main() {
           when(mockDioClient.get(
             'movie/popular',
             queryParameters: {
-              'api_key': API_KEY,
+              'api_key': apiKey,
               'page': 1,
             },
           )).thenAnswer((_) async => Response(
@@ -55,7 +56,7 @@ void main() {
           when(mockDioClient.get(
             'movie/now_playing',
             queryParameters: {
-              'api_key': API_KEY,
+              'api_key': apiKey,
               'page': 1,
             },
           )).thenThrow(DioError(
@@ -85,7 +86,7 @@ void main() {
       when(mockDioClient.get(
         'movie/now_playing',
         queryParameters: {
-          'api_key': API_KEY,
+          'api_key': apiKey,
           'page': 1,
         },
       )).thenAnswer((_) async => Response(
@@ -105,7 +106,7 @@ void main() {
       when(mockDioClient.get(
         'movie/now_playing',
         queryParameters: {
-          'api_key': API_KEY,
+          'api_key': apiKey,
           'page': 1,
         },
       )).thenThrow(DioError(
@@ -134,7 +135,7 @@ void main() {
       when(mockDioClient.get(
         'movie/$tId',
         queryParameters: {
-          'api_key': API_KEY,
+          'api_key': apiKey,
         },
       )).thenAnswer((_) async => Response(
             data: json.decode(readJson('dummy_data/movie_detail.json')),
@@ -153,7 +154,7 @@ void main() {
       when(mockDioClient.get(
         'movie/$tId',
         queryParameters: {
-          'api_key': API_KEY,
+          'api_key': apiKey,
         },
       )).thenThrow(DioError(
         response: Response(

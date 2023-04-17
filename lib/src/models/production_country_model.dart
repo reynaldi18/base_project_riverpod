@@ -5,7 +5,7 @@ import '../features/movies/domain/entities/production_country.dart';
 
 part 'production_country_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class ProductionCountryModel extends Equatable {
   final String? iso31661;
   final String? name;

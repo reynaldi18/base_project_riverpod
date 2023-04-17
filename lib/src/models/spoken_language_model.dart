@@ -5,7 +5,7 @@ import '../features/movies/domain/entities/spoken_language.dart';
 
 part 'spoken_language_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class SpokenLanguageModel extends Equatable {
   final String? englishName;
   final String? iso6391;

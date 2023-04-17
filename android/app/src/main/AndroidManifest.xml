@@ -3,6 +3,9 @@
    <application
         android:label="base_project_riverpod"
         android:name="${applicationName}"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup"
+        android:usesCleartextTraffic="false"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

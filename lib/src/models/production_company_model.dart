@@ -5,7 +5,7 @@ import '../features/movies/domain/entities/production_company.dart';
 
 part 'production_company_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class ProductionCompanyModel extends Equatable {
   final int? id;
   final String? logoPath;

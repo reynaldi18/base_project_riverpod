@@ -10,7 +10,7 @@ import 'spoken_language_model.dart';
 
 part 'movie_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class MovieModel extends Equatable {
   final int? id;
   final bool? adult;

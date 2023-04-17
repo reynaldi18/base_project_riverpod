@@ -20,7 +20,7 @@ class ThemeConfig {
 
   // Themes
   static var darkModeAppTheme = ThemeData.dark().copyWith(
-    scaffoldBackgroundColor: blackColor,
+    scaffoldBackgroundColor: drawerColor,
     cardColor: greyColor,
     indicatorColor: redColor,
     tabBarTheme: const TabBarTheme(
@@ -36,7 +36,6 @@ class ThemeConfig {
       backgroundColor: drawerColor,
     ),
     primaryColor: redColor,
-    backgroundColor: drawerColor,
   );
 
   static var lightModeAppTheme = ThemeData.light().copyWith(
@@ -57,7 +56,6 @@ class ThemeConfig {
       backgroundColor: whiteColor,
     ),
     primaryColor: redColor,
-    backgroundColor: whiteColor,
   );
 }
 

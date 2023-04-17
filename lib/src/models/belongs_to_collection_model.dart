@@ -5,7 +5,7 @@ import '../features/movies/domain/entities/belongs_to_collection.dart';
 
 part 'belongs_to_collection_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class BelongsToCollectionModel extends Equatable {
   final int? id;
   final String? name;

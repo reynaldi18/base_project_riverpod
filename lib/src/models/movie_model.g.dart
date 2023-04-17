@@ -65,16 +65,19 @@ Map<String, dynamic> _$MovieModelToJson(MovieModel instance) =>
       'video': instance.video,
       'vote_average': instance.voteAverage,
       'vote_count': instance.voteCount,
-      'belongs_to_collection': instance.belongsToCollection,
+      'belongs_to_collection': instance.belongsToCollection?.toJson(),
       'budget': instance.budget,
-      'genres': instance.genres,
+      'genres': instance.genres?.map((e) => e.toJson()).toList(),
       'homepage': instance.homepage,
       'imdb_id': instance.imdbId,
-      'production_companies': instance.productionCompanies,
-      'production_countries': instance.productionCountries,
+      'production_companies':
+          instance.productionCompanies?.map((e) => e.toJson()).toList(),
+      'production_countries':
+          instance.productionCountries?.map((e) => e.toJson()).toList(),
       'revenue': instance.revenue,
       'runtime': instance.runtime,
-      'spoken_languages': instance.spokenLanguages,
+      'spoken_languages':
+          instance.spokenLanguages?.map((e) => e.toJson()).toList(),
       'status': instance.status,
       'tagline': instance.tagline,
     };
